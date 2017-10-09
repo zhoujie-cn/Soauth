@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="shiroManager" class="com.soauth.server.shiro.manager.ShiroAuthzManagerImpl"></bean>
+
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="DbRealm"/>
+    </bean>
+
+    <bean id="DbRealm" class="com.soauth.server.shiro.AuthzRealmImpl" >
+
+        <property name="credentialsMatcher">
+            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher"> <!--  解密密码  -->
+                <property name="hashAlgorithmName" value="MD5"></property>
+                <property name="hashIterations" value="2"></property>
+                <property name="storedCredentialsHexEncoded" value="true"></property>
+            </bean>
+        </property>
+
+    </bean>
+
+    <!-- references web.xml -->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>  <!-- must be set. -->
+        <property name="filterChainDefinitions" value="#{shiroManager.loadauthzFilesinits()}"/>
+
+    </bean>
+</beans>
