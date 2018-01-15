@@ -3,11 +3,20 @@ package com.soauth.core.utils;
 import org.springframework.context.ApplicationContext;
 
 /**
- * Created by zhoujie on 2017/9/25.
+ *
+ * @author zhoujie
+ * @date 2017/9/25
  * get beans
  */
 public class SpringBeanUtils {
        private  static ApplicationContext applicationContext;
+
+    public SpringBeanUtils(){
+
+    }
+    public static void initialize(ApplicationContext app) {
+        applicationContext = app;
+    }
 
     public static <T> T getBean(Class<T> clazz) {
         if (applicationContext == null) {

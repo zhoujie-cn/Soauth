@@ -3,8 +3,9 @@ package com.soauth.core.model;
 import lombok.Data;
 
 /**
- *  zhoujie 
+ *
  * roles -> permission
+ * @author zhoujie
  */
 @Data
 public class URolePermission extends  IdDomain{

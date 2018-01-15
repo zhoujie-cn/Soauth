@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-
+ <!-- 服务器安全配置 -->
     <bean id="shiroManager" class="com.soauth.server.shiro.manager.ShiroAuthzManagerImpl"></bean>
 
+    <bean id="properties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <list>
+                <value>classpath:securty/configuration.properties</value>
+            </list>
+        </property>
+    </bean>
 
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="DbRealm"/>
     </bean>
 
-    <bean id="DbRealm" class="com.soauth.server.shiro.AuthzRealmImpl" >
+    <bean id="authFilter" class="com.soauth.server.shiro.AuthorizationFilter"></bean>
+
+    <bean id="DbRealm" class="com.soauth.server.shiro.realm.JwtRealmImpl" >
 
         <property name="credentialsMatcher">
             <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher"> <!--  解密密码  -->
@@ -26,7 +35,15 @@
     <!-- references web.xml -->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager"/>  <!-- must be set. -->
+        <property name="loginUrl" value="/openid/signin"/>
         <property name="filterChainDefinitions" value="#{shiroManager.loadauthzFilesinits()}"/>
-
+        <property name="filters">
+          <util:map>
+              <entry key="authFilter" value-ref="authFilter"></entry>
+          </util:map>
+        </property>
     </bean>
+
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />
+
 </beans>

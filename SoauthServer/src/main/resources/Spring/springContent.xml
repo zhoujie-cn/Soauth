@@ -3,15 +3,17 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd">
 
-    <context:annotation-config/><!--跑通后测试去掉 -->
+    <context:annotation-config/>
     <tx:annotation-driven transaction-manager="transactionManager"/>
+
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
 
-    <context:component-scan base-package="com.soauth.server">
+    <context:component-scan base-package="com.soauth.server,com.soauth.core">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
         <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"></context:exclude-filter>
     </context:component-scan>
@@ -25,45 +27,36 @@
     <aop:config>
 
     </aop:config>
-    <!--<context:property-placeholder ignore-resource-not-found="true" location="classpath*:jdbc.properties"/> -->
 
-    <bean id="log-filter" class="com.alibaba.druid.filter.logging.Log4jFilter">
-        <property name="resultSetLogEnabled" value="true" />
-    </bean>
     <!-- 配置数据源 -->
-    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
-       <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/oauth2" />
-        <property name="username" value="root" />
-        <property name="password" value="Aa149608" />
-        <property name="initialSize" value="3" />
-        <property name="minIdle" value="2" />
-        <property name="maxActive" value="60" />
-        <property name="maxWait" value="60000" />
-        <property name="timeBetweenEvictionRunsMillis" value="60000" />
-        <property name="minEvictableIdleTimeMillis" value="30000" />
-        <property name="validationQuery" value="SELECT 'x'" />
-        <property name="testWhileIdle" value="true" />
-        <property name="testOnBorrow" value="false" />
-        <property name="testOnReturn" value="false" />
-        <property name="removeAbandoned" value="true" />
-        <property name="removeAbandonedTimeout" value="20" />
-        <!--	    <property name="logAbandoned" value="${jdbc.logAbandoned}" /> -->
-        <property name="filters" value="stat" />
-        <!-- 关闭abanded连接时输出错误日志 -->
-        <property name="logAbandoned" value="true" />
-        <property name="proxyFilters">
-            <list>
-                <ref bean="log-filter"/>
-            </list>
-        </property>
-        <!-- 监控数据库 -->
-        <!-- <property name="filters" value="stat" /> -->
-        <!--		<property name="filters" value="mergeStat" />-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.OracleDriver"></property>
+        <property name="jdbcUrl" value="jdbc:oracle:thin:system/Aa149608@localhost:1521:orcl"></property>
+        <property name="maxPoolSize" value="20" />
+        <property name="minPoolSize" value="5" />
+        <property name="autoCommitOnClose" value="false" />
+        <property name="acquireIncrement" value="3" />
+        <property name="initialPoolSize" value="5" />
     </bean>
 
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"
+          p:dataSource-ref="dataSource" p:mapperLocations="classpath:mapper/*.xml">
+        <property name="typeAliasesPackage" value="com.soauth.core.vo"/>
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <value>
+                            helperDialect=oracle
+                            rowBoundsWithCount=true
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
+    </bean><!-- configLocation为mybatis属性 mapperLocations为所有mapper -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
           p:basePackage="com.soauth.server.dao" p:sqlSessionFactoryBeanName="sqlSessionFactory" />
-
 
 </beans>

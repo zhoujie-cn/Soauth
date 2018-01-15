@@ -1,7 +1,9 @@
 package com.soauth.server.shiro.manager;
 
 /**
- * Created by zhoujie on 2017/9/27.
+ *
+ * @author zhoujie
+ * @date 2017/9/27
  */
 public interface ShiroAuthzManager {
 

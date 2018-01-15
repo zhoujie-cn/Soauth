@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soauth.server.dao.Oauth2dao">
+
+    <resultMap id="client_map" type="com.soauth.core.vo.oauth2.ClientDetails">
+        <result property="grantType" column="grant_types"></result>
+        <result property="clientId" column="client_id"></result>
+        <result property="clientSecret" column="client_secret"></result>
+        <result property="redirectUri" column="redirect_uri"></result>
+    </resultMap>
+
+    <select id="loadClientDetails"  parameterType="java.lang.String" resultMap="client_map" >
+      SELECT grant_types,client_id,client_secret,create_time,redirect_uri FROM client_details  WHERE client_id=#{clientid}
+    </select>
+
+
+    <resultMap id="code_map" type="com.soauth.core.vo.oauth2.Oauth2Code">
+        <result property="username" column="auth_holder"></result>
+        <result property="clientId" column="client_id"></result>
+        <result property="code"     column="code"></result>
+    </resultMap>
+
+    <select id="findOauth2Code" parameterType="java.lang.String" resultMap="code_map">
+        SELECT auth_holder, client_id,CODE  FROM authorization_code WHERE client_id="testclient" AND auth_holder="testuser" AND <![CDATA[ expiration > NOW()]]>
+    </select>
+
+    <delete id="removeCode" parameterType="java.lang.String">
+        DELETE FROM authorization_code WHERE client_id=#{clientid} AND code=#{code}
+    </delete>
+
+
+</mapper>

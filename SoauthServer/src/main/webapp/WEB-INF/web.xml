@@ -7,16 +7,18 @@
 
   <display-name>Soauth</display-name>
 
+
   <filter>
     <filter-name>HiddenHttpMethodFilter</filter-name>
     <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
   </filter>
+
   <filter-mapping>
     <filter-name>HiddenHttpMethodFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
-  <!-- Spring字符集过滤器 -->
+
   <filter>
     <filter-name>SpringEncodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -33,12 +35,12 @@
     <filter-name>SpringEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-  <!-- shiro过滤器定义 -->
+
+
   <filter>
     <filter-name>shiroFilter</filter-name>
     <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
   </filter>
-
   <filter-mapping>
     <filter-name>shiroFilter</filter-name>
     <url-pattern>/*</url-pattern>
@@ -49,18 +51,23 @@
     <param-value>classpath:appContext-web.xml</param-value>
   </context-param>
   <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    <listener-class>com.soauth.core.utils.OverallBeanContextListener</listener-class>
   </listener>
+
 
   <servlet>
     <servlet-name>SoauthServer</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:Spring/Springmvc.xml</param-value>
+      <param-value>classpath:spring/springmvc.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
+
+  <welcome-file-list>
+    <welcome-file>/signin</welcome-file>
+  </welcome-file-list>
 
   <servlet-mapping>
     <servlet-name>SoauthServer</servlet-name>

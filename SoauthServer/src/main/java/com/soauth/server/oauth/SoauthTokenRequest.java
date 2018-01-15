@@ -5,9 +5,12 @@ import org.apache.oltu.oauth2.common.exception.OAuthProblemException;
 import org.apache.oltu.oauth2.common.exception.OAuthSystemException;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Set;
 
 /**
- * Created by zhoujie on 2017/9/29.
+ *
+ * @author zhoujie
+ * @date 2017/9/29
  * exts OauthTokenRequest
  */
 public class SoauthTokenRequest extends OAuthTokenRequest {
@@ -23,8 +26,13 @@ public class SoauthTokenRequest extends OAuthTokenRequest {
         super(request);
     }
 
+
     public HttpServletRequest request() {
         return this.request;
     }
 
+    public boolean isOpenid(){
+
+        return this.getScopes().contains("openid");
+    }
 }

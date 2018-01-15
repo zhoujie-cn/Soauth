@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Client" />
         <module name="core" />
         <module name="SoauthServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Client" target="1.8" />
       <module name="core" target="1.7" />
-      <module name="Core" target="1.5" />
       <module name="Soauth" target="1.5" />
       <module name="SoauthServer" target="1.8" />
     </bytecodeTargetLevel>

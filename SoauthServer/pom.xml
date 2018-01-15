@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-<!-- $Id: pom.xml 642118 2008-03-28 08:04:16Z reinhard $ -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>Soauth</artifactId>
         <groupId>com.Soauth</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>..</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
 
     <name>SoauthServer</name>
+    <groupId>com.Soauth</groupId>
+    <version>1.0</version>
     <artifactId>SoauthServer</artifactId>
 
     <properties>
+        <shiro.version>1.3.2</shiro.version>
         <oltu.version>1.0.2</oltu.version>
-        <spring.version>4.1.6.RELEASE</spring.version>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <aspectj.version>1.6.12</aspectj.version>
         <guava.version>18.0</guava.version>
         <mybatis.version>3.3.0 </mybatis.version>
-        <druid.version>1.0.18</druid.version>
-        <junit.version>4.12</junit.version>
+        <c3p0.version>0.9.1.1</c3p0.version>
         <jackson.version>2.5.3</jackson.version>
-
+        <jose4j.version>0.6.1</jose4j.version>
+        <slf4j.version>1.7.7</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
+        <junit.version>4.12</junit.version>
+        <testNG.version>6.8.7</testNG.version>
+        <mockito.version>1.8.4</mockito.version>
     </properties>
 
     <build>
@@ -39,21 +48,11 @@
             </plugin>
 
             <plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>maven-jetty-plugin</artifactId>
-                <version>6.1.7</version>
-                <configuration>
-                    <connectors>
-                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                            <port>8888</port>
-                            <maxIdleTime>30000</maxIdleTime>
-                        </connector>
-                    </connectors>
-                    <webAppSourceDirectory>${project.build.directory}/${pom.artifactId}-${pom.version}
-                    </webAppSourceDirectory>
-                    <contextPath>/</contextPath>
-                </configuration>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.6</version>
+
             </plugin>
+
         </plugins>
     </build>
 
@@ -66,16 +65,31 @@
         </dependency>
 
         <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
             <groupId>com.Soauth</groupId>
             <artifactId>core</artifactId>
             <version>1.0</version>
         </dependency>
 
         <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.1</version>
-            <scope>provided</scope>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -84,11 +98,37 @@
             <version>1.4</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
+        <!--shiro-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>${shiro.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+
 
         <!--oltu-->
         <dependency>
@@ -96,25 +136,11 @@
             <artifactId>org.apache.oltu.oauth2.authzserver</artifactId>
             <version>${oltu.version}</version>
         </dependency>
-        <!--oltu jwt-->
+        <!--jose4j -->
         <dependency>
-            <groupId>org.apache.oltu.oauth2</groupId>
-            <artifactId>org.apache.oltu.oauth2.jwt</artifactId>
-            <version>${oltu.version}</version>
-        </dependency>
-
-        <!-- oxm  -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-oxm</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <!-- spring jdbc -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>${spring.version}</version>
+            <groupId>org.bitbucket.b_c</groupId>
+            <artifactId>jose4j</artifactId>
+            <version>${jose4j.version}</version>
         </dependency>
 
         <dependency>
@@ -141,6 +167,7 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-jaxb-annotations</artifactId>
@@ -151,6 +178,20 @@
             <artifactId>jackson-datatype-joda</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.12</version>
+        </dependency>
+
 
         <dependency>
             <groupId>net.sf.json-lib</groupId>
@@ -163,13 +204,26 @@
             </exclusions>
             <version>2.4</version>
             <classifier>jdk15</classifier>
-
         </dependency>
 
         <!--spring-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- oxm  -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-oxm</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- spring jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
         </dependency>
 
@@ -194,6 +248,18 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.2.5.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
 
@@ -229,24 +295,29 @@
             <artifactId>mybatis-spring</artifactId>
             <version>1.2.2</version>
         </dependency>
-        <!--mysql -->
+        <!--oracle  (请自行使用 mvn install 安装到本地仓库 ) 这个dependency有毒-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.21</version>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc14</artifactId>
+            <version>10.2.0.4.0</version>
         </dependency>
         <!-- druid-->
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>${druid.version}</version>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>${c3p0.version}</version>
         </dependency>
 
-        <!-- lombok  -->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.10</version>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
         </dependency>
 
         <!-- guava-->
@@ -259,15 +330,39 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.14</version>
-            <scope>compile</scope>
+            <version>${log4j.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testNG.version}</version>
             <scope>test</scope>
         </dependency>
 

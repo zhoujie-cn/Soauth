@@ -1,7 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5667dc0-cd14-4e60-b3f1-6b1ed0fedd75" name="Default" comment="" />
+    <list default="true" id="a5667dc0-cd14-4e60-b3f1-6b1ed0fedd75" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/src/main/webapp/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_4_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/business/ConnectTokenBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/business/ImplicitAccessToken.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/mapper/clientDetailsmapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/securty/shiro_authz.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/test/resources/mapper/UserDefaultmapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/test/resources/mapper/authzmapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/test/resources/mapper/tokenmapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/SidebarTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/SigninToken.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/utils/ShiroUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/CookieUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/OverallBeanContextListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/RsaKeyUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AbstractOIDC.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keys/RSA2048private.key" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keys/RSA2048public.key" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/Core_war.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/Core_war_exploded.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_0_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Soauth.iml" afterPath="$PROJECT_DIR$/../Soauth.iml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war_exploded.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_Soauth_core_1_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_Soauth_core_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_5_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_5_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_6.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_6.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_21.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_commons_org_apache_oltu_commons_encodedtoken_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_commons_org_apache_oltu_commons_json_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_1_0_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_1_0_2.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_jwt_1_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_3_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_3_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_3_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_3_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_json_json_20140107.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_json_json_20140107.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_5_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_oxm_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_1_2_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_1_2_0.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/SoauthServer.iml" afterPath="$PROJECT_DIR$/../SoauthServer/SoauthServer.iml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/pom.xml" afterPath="$PROJECT_DIR$/../SoauthServer/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/dao/Oauth2dao.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/dao/Oauth2dao.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthAuthRequest.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthAuthRequest.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthTokenRequest.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthTokenRequest.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzCodeHandler.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzCodeHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzTokenHandler.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzTokenHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/message/SoauthHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/message/SoauthResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/token/TokenDispatcher.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/token/TokenDispatcher.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/authzGrant/AuthzHandlerValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/client/AuthzcodeClientValidator.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/client/AuthzcodeClientValidator.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/client/ClientValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/Oauth2Service.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/Oauth2Service.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/impl/Oauth2ServiceImpl.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/impl/Oauth2ServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/AuthzRealmImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManager.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManager.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManagerImpl.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManagerImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/utils/LoadINIutis.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/utils/MessageUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/web/controller/AuthzControl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/Springmvc.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/Springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/springContent.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/springContent.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/appContext-web.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/appContext-web.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/logging.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/securty/authz-shiro.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/securty/authz-shiro.xml" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/shiro_authz.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_12.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20131018.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20131018.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_5_2_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_9_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/core.iml" afterPath="$PROJECT_DIR$/core.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/cache/CacheKeyGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/cache/CacheSupport.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/cache/ConstantsCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/IdDomain.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/IdDomain.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUsers.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UserInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DateUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/SpringBeanUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/SpringBeanUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ConstantsKey.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2Code.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2Code.java" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" afterPath="$PROJECT_DIR$/../pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,39 +211,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UUsers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUsers.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AbstractOIDC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AbstractOIDC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UUserRoles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUserRoles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UURoles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java">
+      <file leaf-file-name="ClientDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessToken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SigninToken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/SigninToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,8 +256,28 @@
       <file leaf-file-name="URolePermission.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UUserRoles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUserRoles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -60,18 +286,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UPermission.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java">
+      <file leaf-file-name="JoseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/openid/connect/JoseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="1598">
+              <caret line="129" column="30" lean-forward="false" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SidebarTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/SidebarTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -82,9 +318,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -94,11 +335,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUsers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUserRoles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/PrivateKeyFactory.java" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwk/RsaJwkGenerator.java" />
+        <option value="$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/JwksCacheService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/JwtRealmImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2RefreshToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/IdDomain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/Cookieutils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/CookieUtils.java" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.common/1.0.0/org.apache.oltu.oauth2.common-1.0.0-sources.jar!/org/apache/oltu/oauth2/common/OAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ConstantsKey.java" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1.jar!/org/jose4j/keys/RsaKeyUtil.class" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/AbstractFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openid/connect/TestJwksCacheService.java" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwt/JwtClaims.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/RefreshToken.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springConfig.xml" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwx/JsonWebStructure.java" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwx/HeaderParameterNames.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/springConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/SpringBeanUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/OverallBeanContextListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/signature/DefaultSignatrueAndverifySignatrue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/encryption/DefaultJwtencryptAnddecryption.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/soauth/core/utils/DataTablePageUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2Code.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DataTablePageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/keys/RSA2048private.key" />
+        <option value="$PROJECT_DIR$/src/main/resources/keys/RSA2048public.key" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/PublicKeyFactory.java" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwk/RsaJsonWebKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/SidebarTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/model/SigninToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/RsaKeyUtils.java" />
+        <option value="$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/keys/RsaKeyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/ShiroAuthzManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/ShiroAuthzManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/utils/ShiroUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/LoadIniutis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/message/ResponseType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AbstractOIDC.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openid/connect/JoseTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -109,53 +395,47 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\JZ9523\.m2\repository" />
+        <option name="mavenHome" value="F:/apache-maven-3.3.3-bin/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="C:\Users\JZ9523\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="core" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="core" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="core" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+      </expand>
+      <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-21" />
-    <option name="width" value="1460" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="width" value="1386" />
+    <option name="height" value="691" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -165,154 +445,54 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="RsaKeyUtil&#9;FILE&#9;jar://C:/Users/JZ9523/.m2/repository/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1.jar!/org/jose4j/keys/RsaKeyUtil.class" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soauth.core.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soauth.core.utils" />
+      <recent name="openid.connect" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oauth2\Soauth\core\src\main\resources\keys" />
       <recent name="D:\oauth2\Soauth\core\src\main\java\com\soauth\core\model" />
+      <recent name="D:\oauth2\Soauth\core\src\main\java\com\soauth\core\utils" />
+      <recent name="D:\oauth2\Soauth\core\src\main\java\com\soauth\core" />
+      <recent name="D:\oauth2\Soauth\core\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,13 +507,279 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.JoseTest.testExpired">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="install-Test" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="JoseTest.encryptRsaTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="openid.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="openid.connect" />
+      <option name="MAIN_CLASS_NAME" value="openid.connect.JoseTest" />
+      <option name="METHOD_NAME" value="encryptRsaTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="JoseTest.getPrivateKey" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="openid.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="openid.connect" />
+      <option name="MAIN_CLASS_NAME" value="openid.connect.JoseTest" />
+      <option name="METHOD_NAME" value="getPrivateKey" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="JoseTest.testExpired" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="openid.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="openid.connect" />
+      <option name="MAIN_CLASS_NAME" value="openid.connect.JoseTest" />
+      <option name="METHOD_NAME" value="testExpired" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="JoseTest.testJsencrypt" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="openid.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="openid.connect" />
+      <option name="MAIN_CLASS_NAME" value="openid.connect.JoseTest" />
+      <option name="METHOD_NAME" value="testJsencrypt" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="JoseTest.testPublickey" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="openid.connect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="openid.connect" />
+      <option name="MAIN_CLASS_NAME" value="openid.connect.JoseTest" />
+      <option name="METHOD_NAME" value="testPublickey" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -388,29 +834,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -559,35 +982,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -672,49 +1066,10 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -730,6 +1085,31 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Maven.install-Test" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.JoseTest.getPrivateKey" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.JoseTest.encryptRsaTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.JoseTest.testPublickey" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.JoseTest.testJsencrypt" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.JoseTest.testExpired" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.JoseTest.testExpired" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.JoseTest.testJsencrypt" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.JoseTest.encryptRsaTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.JoseTest.testPublickey" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.JoseTest.getPrivateKey" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -745,57 +1125,156 @@
       <option name="presentableId" value="Default" />
       <updated>1506327200007</updated>
       <workItem from="1506327203413" duration="6032000" />
+      <workItem from="1510651092230" duration="9277000" />
+      <workItem from="1510704773493" duration="8031000" />
+      <workItem from="1510715209088" duration="6881000" />
+      <workItem from="1510731115647" duration="8619000" />
+      <workItem from="1510790739184" duration="5393000" />
+      <workItem from="1510877133708" duration="666000" />
+      <workItem from="1510884655889" duration="5076000" />
+      <workItem from="1511140276876" duration="488000" />
+      <workItem from="1511145485264" duration="3039000" />
+      <workItem from="1511166792335" duration="649000" />
+      <workItem from="1511167592553" duration="7107000" />
+      <workItem from="1511224545479" duration="3305000" />
+      <workItem from="1511341467257" duration="2081000" />
+      <workItem from="1511396652619" duration="21346000" />
+      <workItem from="1511482309051" duration="676000" />
+      <workItem from="1511510047432" duration="1015000" />
+      <workItem from="1511513223003" duration="1121000" />
+      <workItem from="1511514814174" duration="630000" />
+      <workItem from="1511742310815" duration="1291000" />
+      <workItem from="1511859873213" duration="47000" />
+      <workItem from="1511868724759" duration="35000" />
+      <workItem from="1511934855769" duration="7809000" />
+      <workItem from="1512033255711" duration="663000" />
+      <workItem from="1512113286272" duration="5078000" />
+      <workItem from="1512348344294" duration="8118000" />
+      <workItem from="1512432932913" duration="7074000" />
+      <workItem from="1512478079955" duration="1878000" />
+      <workItem from="1512608584066" duration="1301000" />
+      <workItem from="1512630583412" duration="1961000" />
+      <workItem from="1512718123841" duration="721000" />
+      <workItem from="1512962582543" duration="568000" />
+      <workItem from="1512984932555" duration="68000" />
+      <workItem from="1512985463939" duration="3207000" />
+      <workItem from="1513037687435" duration="692000" />
+      <workItem from="1513130287451" duration="3907000" />
+      <workItem from="1513168818156" duration="757000" />
+      <workItem from="1513211357913" duration="1138000" />
+      <workItem from="1513235171909" duration="638000" />
+      <workItem from="1513560371769" duration="2603000" />
+      <workItem from="1513599541651" duration="653000" />
+      <workItem from="1513642968879" duration="972000" />
+      <workItem from="1513666143812" duration="3864000" />
+      <workItem from="1513753705944" duration="2659000" />
+      <workItem from="1514017994294" duration="3757000" />
+      <workItem from="1514165408576" duration="4056000" />
+      <workItem from="1514198219049" duration="1577000" />
+      <workItem from="1514252192601" duration="1632000" />
+      <workItem from="1514271561978" duration="643000" />
+      <workItem from="1514274470052" duration="694000" />
+      <workItem from="1514290758870" duration="12000" />
+      <workItem from="1514452614241" duration="1636000" />
+      <workItem from="1514508950888" duration="591000" />
+      <workItem from="1514879627045" duration="2521000" />
+      <workItem from="1514955660567" duration="2539000" />
+      <workItem from="1514978661796" duration="405000" />
+      <workItem from="1515028357639" duration="14514000" />
+      <workItem from="1515113162294" duration="11784000" />
+      <workItem from="1515370257326" duration="1365000" />
+      <workItem from="1515477906161" duration="1174000" />
+      <workItem from="1515641868943" duration="4231000" />
+      <workItem from="1515653998689" duration="1682000" />
+      <workItem from="1515745644788" duration="799000" />
+      <workItem from="1515989759205" duration="26000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JoseTest_encryptRsaTest - 2018.01.04 at 11h 30m 19s.xml">
+      <configuration name="JoseTest.encryptRsaTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_encryptRsaTest - 2018.01.04 at 11h 30m 38s.xml">
+      <configuration name="JoseTest.encryptRsaTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_encryptRsaTest - 2018.01.04 at 11h 31m 16s.xml">
+      <configuration name="JoseTest.encryptRsaTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_encryptRsaTest - 2018.01.04 at 11h 31m 51s.xml">
+      <configuration name="JoseTest.encryptRsaTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_encryptRsaTest - 2018.01.05 at 08h 55m 28s.xml">
+      <configuration name="JoseTest.encryptRsaTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_testExpired - 2018.01.08 at 17h 51m 05s.xml">
+      <configuration name="JoseTest.testExpired" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_testExpired - 2018.01.09 at 14h 14m 44s.xml">
+      <configuration name="JoseTest.testExpired" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_testJsencrypt - 2018.01.05 at 10h 03m 38s.xml">
+      <configuration name="JoseTest.testJsencrypt" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_testJsencrypt - 2018.01.05 at 10h 08m 15s.xml">
+      <configuration name="JoseTest.testJsencrypt" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JoseTest_testJsencrypt - 2018.01.05 at 10h 08m 39s.xml">
+      <configuration name="JoseTest.testJsencrypt" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6032000" />
+    <option name="totallyTimeSpent" value="204772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-21" y="0" width="1460" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20428571" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37065053" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42636988" sideWeight="0.8704691" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32683983" sideWeight="0.12953092" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32683983" sideWeight="0.48720682" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -803,54 +1282,261 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUserRoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.common/1.0.0/org.apache.oltu.oauth2.common-1.0.0-sources.jar!/org/apache/oltu/oauth2/common/OAuth.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1.jar!/org/jose4j/keys/RsaKeyUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/AbstractFactoryBean.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwt/ReservedClaimNames.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwt/JwtClaims.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springConfig.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwx/JsonWebStructure.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwx/HeaderParameterNames.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/SpringBeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/AbstarctVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/signature/DefaultSignatrueAndverifySignatrue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/OverallBeanContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openid/connect/TestJwksCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/encryption/DefaultJwtencryptAnddecryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/soauth/core/utils/DataTablePageUtilTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/RefreshToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DataTablePageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="161" column="44" lean-forward="false" selection-start-line="161" selection-start-column="44" selection-end-line="161" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keys/RSA2048private.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/InputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/PrivateKeyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keys/RSA2048public.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwk/PublicJsonWebKey.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/jwk/RsaJsonWebKey.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/security/interfaces/RSAPublicKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/PublicKeyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="65" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/IdDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/jce.jar!/javax/crypto/Cipher.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/RsaKeyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitbucket/b_c/jose4j/0.6.1/jose4j-0.6.1-sources.jar!/org/jose4j/keys/RsaKeyUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/JwksCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/ShiroAuthzManagerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/ShiroAuthzManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/utils/ShiroUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/message/ResponseType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/LoadIniutis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AbstractOIDC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openid/connect/JoseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="129" column="30" lean-forward="false" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/SidebarTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/SigninToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUserRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="228">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>

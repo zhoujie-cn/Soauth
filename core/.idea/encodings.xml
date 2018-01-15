@@ -2,6 +2,21 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/SidebarTree.java" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/openid/connect/encryption/DefaultJwtencryptAnddecryption.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/ShiroAuthzManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/manager/ShiroAuthzManagerImpl.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/CookieUtils.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DataTablePageUtil.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/LoadIniutis.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/OverallBeanContextListener.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/soauth/core/utils/RsaKeyUtils.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/keys/RSA2048private.key" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/keys/RSA2048private.key" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/keys/RSA2048public.key" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/keys/RSA2048public.key" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/log4j.properties" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/test/java/openid/connect/JoseTest.java" charset="GB2312" />
   </component>
 </project>

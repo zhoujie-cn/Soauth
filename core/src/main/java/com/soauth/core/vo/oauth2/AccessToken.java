@@ -1,47 +1,86 @@
 package com.soauth.core.vo.oauth2;
 
 
+import com.google.common.collect.Maps;
 import com.soauth.core.utils.DateUtils;
 import com.soauth.core.vo.AbstarctVo;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import org.jose4j.jwt.JwtClaims;
+
+import java.util.Map;
+import java.util.Set;
 
 
 /**
  *
  * token 对象
+ * @author zhoujie
  */
+
+@EqualsAndHashCode
 public class AccessToken extends AbstarctVo{
 
 
     private static final long serialVersionUID = -3065517831372557033L;
     public static final String BEARER_TYPE = "Bearer";
 
-    //refresh_toen Default value
-    public static final int REFRESH_TOKEN_VALIDITY_SECONDS = 60 * 60 * 24 * 30; // default 30 days.
-    //access_token Default value
-    public static final int ACCESS_TOKEN_VALIDITY_SECONDS = 60 * 60 * 12; // default 12 hours.
+
+    /**
+     * access_token 过期时间
+     */
+    public static final int ACCESS_TOKEN_VALIDITY_SECONDS = 60 * 60 * 12;
 
 
     protected static long THOUSAND = 1000L;
 
 
-    private String tokenId;
+    private static final String ID_TOEN=AbstractOIDC.ID_TOKEN;
 
-    private String username;
+    /**
+     * 如果用户是请求认证的话,将idToken存在这里
+     */
+    @Getter
+    private Map<String,Object> idMap= Maps.newHashMap();
+    @Getter
+    @Setter
+    private Long  id;
 
-    private String clientId;
+    @Getter
+    @Setter
+    private String tokenvalue;
 
-    private String authenticationId;
+    @Getter
+    @Setter
+    private  ClientDetails clientDetails;
 
-    private String refreshToken;
 
+    @Getter
+    @Setter
+    private Set<String> scope;
+
+    @Getter
+    @Setter
     private String tokenType = BEARER_TYPE;
 
-    private int tokenExpiredSeconds = ACCESS_TOKEN_VALIDITY_SECONDS;
+    public int tokenExpiredSeconds = ACCESS_TOKEN_VALIDITY_SECONDS;
 
-    private int refreshTokenExpiredSeconds = REFRESH_TOKEN_VALIDITY_SECONDS;
+    @Getter
+    @Setter
+    private String permissions;
 
+    @Getter
+    @Setter
+    private String username;
+
+    @Getter
+    @Setter
+    private RefreshToken refreshToken;
 
     public AccessToken() {
+
     }
 
 
@@ -50,12 +89,10 @@ public class AccessToken extends AbstarctVo{
         return time < DateUtils.date().getTime();
     }
 
+    public void setIdToken(String idToken){
 
-    public boolean refreshTokenExpired() {
-        final long time = createTime.getTime() + (this.refreshTokenExpiredSeconds * THOUSAND);
-        return time < DateUtils.date().getTime();
+        idMap.put(ID_TOEN,idToken);
     }
-
 
     public long currentTokenExpiredSeconds() {
         if (tokenExpired()) {
@@ -65,119 +102,5 @@ public class AccessToken extends AbstarctVo{
         return (time - DateUtils.date().getTime()) / THOUSAND;
     }
 
-    public AccessToken updateByClientDetails(ClientDetails clientDetails) {
-        this.clientId = clientDetails.clientId();
 
-        final Integer accessTokenValidity = clientDetails.accessTokenValidity();
-        if (accessTokenValidity != null && accessTokenValidity > 0) {
-            this.tokenExpiredSeconds = accessTokenValidity;
-        }
-
-        final Integer refreshTokenValidity = clientDetails.refreshTokenValidity();
-        if (refreshTokenValidity != null && refreshTokenValidity > 0) {
-            this.refreshTokenExpiredSeconds = refreshTokenValidity;
-        }
-
-        return this;
-    }
-
-    public String tokenId() {
-        return tokenId;
-    }
-
-    public AccessToken tokenId(String tokenId) {
-        this.tokenId = tokenId;
-        return this;
-    }
-
-    public String username() {
-        return username;
-    }
-
-    public AccessToken username(String username) {
-        this.username = username;
-        return this;
-    }
-
-    public String clientId() {
-        return clientId;
-    }
-
-    public AccessToken clientId(String clientId) {
-        this.clientId = clientId;
-        return this;
-    }
-
-    public String refreshToken() {
-        return refreshToken;
-    }
-
-    public AccessToken refreshToken(String refreshToken) {
-        this.refreshToken = refreshToken;
-        return this;
-    }
-
-    public String tokenType() {
-        return tokenType;
-    }
-
-    public AccessToken tokenType(String tokenType) {
-        this.tokenType = tokenType;
-        return this;
-    }
-
-    public int tokenExpiredSeconds() {
-        return tokenExpiredSeconds;
-    }
-
-    public AccessToken tokenExpiredSeconds(int tokenExpiredSeconds) {
-        this.tokenExpiredSeconds = tokenExpiredSeconds;
-        return this;
-    }
-
-    public int refreshTokenExpiredSeconds() {
-        return refreshTokenExpiredSeconds;
-    }
-
-    public AccessToken refreshTokenExpiredSeconds(int refreshTokenExpiredSeconds) {
-        this.refreshTokenExpiredSeconds = refreshTokenExpiredSeconds;
-        return this;
-    }
-
-
-    public String authenticationId() {
-        return authenticationId;
-    }
-
-    public AccessToken authenticationId(String authenticationId) {
-        this.authenticationId = authenticationId;
-        return this;
-    }
-
-    @Override
-    public String toString() {
-        return "{" +
-                "tokenId='" + tokenId + '\'' +
-                ", username='" + username + '\'' +
-                ", clientId='" + clientId + '\'' +
-                ", authenticationId='" + authenticationId + '\'' +
-                ", refreshToken='" + refreshToken + '\'' +
-                ", tokenType='" + tokenType + '\'' +
-                ", tokenExpiredSeconds=" + tokenExpiredSeconds +
-                ", refreshTokenExpiredSeconds=" + refreshTokenExpiredSeconds +
-                '}';
-    }
-
-    /**
-     * Clone
-     * Exclude token, refresh_token, authenticationId, expired
-     *
-     * @return New AccessToken instance
-     */
-    public AccessToken cloneMe() {
-        return new AccessToken()
-                .username(username)
-                .clientId(clientId)
-                .tokenType(tokenType);
-    }
 }

@@ -1,13 +1,42 @@
 package com.soauth.core.vo.oauth2;
 
+import com.soauth.core.utils.DateUtils;
 import com.soauth.core.vo.AbstarctVo;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.Date;
 
 /**
- * Created by zhoujie on 2017/9/25.
+ *
+ * @author zhoujie
+ * @date 2017/9/25
  */
-public class Oauth2Code extends AbstarctVo{
+public class Oauth2Code {
+
+    @Getter
+    @Setter
+    private Long id;
 
     private static final long serialVersionUID = -2567465938303275072L;
+
+    /**
+     * Code 创建时间
+     */
+    private String createTime;
+    /**
+     * code 过期时间, 单位ms
+     */
+    public static  long  DEFAULT_CODE_EXPIRATION= 1800000;
+
+    /**
+     * Code 过期时间
+     */
+    private String explration;
+
+    @Getter
+    private  String codeChallenge;
+
     private String code;
 
     private String username;
@@ -44,5 +73,26 @@ public class Oauth2Code extends AbstarctVo{
         this.clientId = clientId;
         return this;
     }
+
+    public Oauth2Code createtime(String date){
+       createTime= date;
+       return this;
+    }
+
+    public String createtime(){
+        return  createTime;
+    }
+
+    public String explration(){
+
+        return  explration;
+    }
+
+    public  Oauth2Code  explration( String date){
+        explration=date;
+        return this;
+    }
+
+
 
 }

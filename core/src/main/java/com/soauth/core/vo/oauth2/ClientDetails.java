@@ -2,12 +2,20 @@ package com.soauth.core.vo.oauth2;
 
 
 import com.soauth.core.vo.AbstarctVo;
+import lombok.Data;
 import org.apache.oltu.oauth2.common.message.types.GrantType;
+import org.jose4j.jwk.JsonWebKey;
+
+import java.util.HashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  *
  *client 请求对象类型
  */
+@Data
 public class ClientDetails extends AbstarctVo {
 
 
@@ -15,175 +23,88 @@ public class ClientDetails extends AbstarctVo {
 
     private String resourceIds;
 
-    private String scope;
+    private Set<String> scope = new LinkedHashSet<>();
 
-    private String grantTypes;
+    private String scopeString;
 
-    /*
-   * Shiro roles
-   * */
-    private String roles;
+    private  boolean trusted;
+
+    private Set<String> grantTypes= new LinkedHashSet<>();
+
+    private String grantType;
 
     private Integer accessTokenValidity;
 
     private Integer refreshTokenValidity;
 
-    private boolean trusted = false;
-
-    private boolean archived = false;
-
-
     private String name;
+
     private String clientId;
+
     private String clientSecret;
+
+    private String clientName;
+
     private String redirectUri;
+
     private String clientUri;
+
     private String description;
-    private String iconUri;
+
+    private String loginUri;
+
+    /**
+     * 访问设备类型
+     */
+    private String appType;
+
+    private  String jwksUri;
+
+    /**
+     *
+      */
+    Authentication tokenEndpointmethod=Authentication.SECRET_BASIC;
+    /**
+     * public key
+     */
+    private JsonWebKey jwk;
 
     public ClientDetails() {
     }
 
+    /**
+     * document: http://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication
+     */
+    public enum Authentication {
+        SECRET_POST("client_secret_post"),
+        SECRET_BASIC("client_secret_basic"),
+        SECRET_JWT("client_secret_jwt"),
+        PRIVATE_KEY("private_key_jwt"),
+        NONE("none");
 
-    public String clientId() {
-        return clientId;
+        private final String value;
+
+        // map to aid reverse lookup
+        private static final Map<String, Authentication> lookup = new HashMap<>();
+        static {
+            for (Authentication a : Authentication.values()) {
+                lookup.put(a.getValue(), a);
+            }
+        }
+
+        Authentication(String value) {
+            this.value = value;
+        }
+
+        public String getValue() {
+            return value;
+        }
+
+        public static Authentication getByValue(String value) {
+            return lookup.get(value);
+        }
     }
 
-    public String clientSecret() {
-        return clientSecret;
-    }
-
-    public String redirectUri() {
-        return redirectUri;
-    }
-
-
-    public String name() {
-        return name;
-    }
-
-
-    public String iconUri() {
-        return iconUri;
-    }
-
-
-    public String clientUri() {
-        return clientUri;
-    }
-
-
-    public String description() {
-        return description;
-    }
-
-    public ClientDetails clientUri(String clientUri) {
-        this.clientUri = clientUri;
-        return this;
-    }
-
-    public ClientDetails name(String name) {
-        this.name = name;
-        return this;
-    }
-
-    public ClientDetails clientId(String clientId) {
-        this.clientId = clientId;
-        return this;
-    }
-
-    public ClientDetails clientSecret(String clientSecret) {
-        this.clientSecret = clientSecret;
-        return this;
-    }
-
-    public ClientDetails redirectUri(String redirectUri) {
-        this.redirectUri = redirectUri;
-        return this;
-    }
-
-    public ClientDetails iconUri(String iconUri) {
-        this.iconUri = iconUri;
-        return this;
-    }
-
-    public ClientDetails description(String description) {
-        this.description = description;
-        return this;
-    }
-
-
-    public String resourceIds() {
-        return resourceIds;
-    }
-
-    public ClientDetails resourceIds(String resourceIds) {
-        this.resourceIds = resourceIds;
-        return this;
-    }
-
-    public String scope() {
-        return scope;
-    }
-
-    public ClientDetails scope(String scope) {
-        this.scope = scope;
-        return this;
-    }
-
-    public String grantTypes() {
-        return grantTypes;
-    }
-
-    public ClientDetails grantTypes(String grantTypes) {
-        this.grantTypes = grantTypes;
-        return this;
-    }
-
-    public String roles() {
-        return roles;
-    }
-
-    public ClientDetails roles(String roles) {
-        this.roles = roles;
-        return this;
-    }
-
-    public Integer accessTokenValidity() {
-        return accessTokenValidity;
-    }
-
-    public ClientDetails accessTokenValidity(Integer accessTokenValidity) {
-        this.accessTokenValidity = accessTokenValidity;
-        return this;
-    }
-
-    public Integer refreshTokenValidity() {
-        return refreshTokenValidity;
-    }
-
-    public ClientDetails refreshTokenValidity(Integer refreshTokenValidity) {
-        this.refreshTokenValidity = refreshTokenValidity;
-        return this;
-    }
-
-    public boolean trusted() {
-        return trusted;
-    }
-
-    public ClientDetails trusted(boolean trusted) {
-        this.trusted = trusted;
-        return this;
-    }
-
-    public boolean archived() {
-        return archived;
-    }
-
-    public ClientDetails archived(boolean archived) {
-        this.archived = archived;
-        return this;
-    }
 
 
     public boolean supportRefreshToken() {

@@ -8,7 +8,9 @@ import org.apache.oltu.oauth2.common.message.types.ResponseType;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by zhoujie on 2017/9/21.
+ *
+ * @author zhoujie
+ * @date 2017/9/21
  * ·â×°oltu AthzRequest
  */
 public class SoauthAuthRequest extends OAuthAuthzRequest {
@@ -27,7 +29,12 @@ public class SoauthAuthRequest extends OAuthAuthzRequest {
     }
 
     public boolean isToken() {
+
         return ResponseType.TOKEN.name().equalsIgnoreCase(this.getResponseType());
+    }
+
+    public boolean isOpenid(){
+        return this.getScopes().contains("openid");
     }
 
     public HttpServletRequest request() {

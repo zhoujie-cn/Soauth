@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+
+    <title>Title</title>
+
+    <link href="src/css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+<h2>Soauth-Client</h2>
+
+
+<div class="container">
+    操作说明:
+    <ol>
+        <li>
+            <p>
+                 Soauth-Client 是Soauth的客户端模块相当于openid-connect文档中的rp <a
+                    href="http://openid.net/specs/openid-connect-core-1_0.html"
+                    target="_blank">文档地址</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                按照Oauth2支持的grant_type依次去实现. 共5类.
+                <br/>
+            <ul>
+                <li>authorization_code</li>
+                <li>password</li>
+                <li>client_credentials</li>
+                <li>implicit</li>
+                <li>refresh_token</li>
+            </ul>
+        </li>
+        <li>
+            <p>
+                <em>
+                    在开始使用之前, 请确保 <a href="http://git.oschina.net/shengzhao/spring-oauth-server" target="_blank">Soauth-Server</a>
+                    模块已正确运行.
+                </em>
+            </p>
+        </li>
+    </ol>
+</div>
+<br/>
+
+
+<hr/>
+
+<div class="container">
+
+    <strong>菜单</strong>
+    <ul>
+        <li>
+            <p><a href="authorization_code">authorization_code</a><br/>授权码模式(即先登录获取code,再获取token) [最常用]</p>
+        </li>
+
+        <pre><code>GET http://localhost:8089/client/oidc/authorize? HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code&amp;client_id=testclient&amp;client_secret=test_secret&amp;scope=openid refreshToken username&amp;redirect_uri=http://localhost:8089/client/oidc/authorize_callback_code&gt;
+</code></pre>
+
+        <button type="submit" id="codetest" class="btn btn-primary">test</button>
+
+        <li>
+            <p><a href="implicit">implicit</a> <br/>简化模式(在redirect_uri 的Hash传递token; oidc客户端运行在浏览器中,如JS,Flash)</p>
+        </li>
+        <pre><code>GET http://localhost:8089/client/oidc/authorize? HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=token(token)&amp;client_id=testclient&amp;client_secret=test_secret&amp;scope=openid username&amp;redirect_uri=http://localhost:8089/client/oidc/authorize_callback_code&gt;
+</code></pre>
+        <button type="submit" id="tokentest" class="btn btn-primary">test</button>
+
+        <li>
+            <p><a href="client_credentials">client_credentials</a> <br/>客户端模式(无用户,用户向客户端注册,然后客户端以自己的名义向'服务端'获取资源)</p>
+        </li>
+
+        <li>
+            <p><a href="refresh_token">refresh_token</a> <br/>刷新access_token</p>
+        </li>
+    </ul>
+    <br/>
+
+    <p class="alert alert-warning">
+        <strong>注意</strong>: 在测试时默认填写的数据有可能不正确, 建议先在 <a href="https://andaily.com/spring-oauth-server/" target="_blank">spring-oauth-server</a>
+        添加 client_details 后, 使用其client_id, client_secret来进行测试.
+    </p>
+</div>
+
+<script src="/client/src/js/jquery/jquery.min.js?v=2.1.4"></script>
+<script src="/client/src/js/bootstrap/bootstrap.min.js?v=3.3.6"></script>
+<script src="/client/src/js/business/partylogin.js"></script>
+
+</body>
+</html>

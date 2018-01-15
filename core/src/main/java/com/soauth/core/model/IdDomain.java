@@ -6,7 +6,9 @@ import com.soauth.core.vo.AbstarctVo;
 import java.io.Serializable;
 
 /**
- * Created by zhoujie on 2017/9/25.
+ *
+ * @author zhoujie
+ * @date 2017/9/25
  *
  */
 public abstract class IdDomain extends AbstarctVo{

@@ -1,6 +1,7 @@
 package com.soauth.server.shiro.manager;
 
-import com.soauth.server.utils.LoadINIutis;
+
+import com.soauth.core.utils.LoadIniutis;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.filter.mgt.DefaultFilterChainManager;
 import org.apache.shiro.web.filter.mgt.PathMatchingFilterChainResolver;
@@ -17,7 +18,9 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by zhoujie on 2017/9/27.
+ *
+ * @author zhoujie
+ * @date 2017/9/27
  * <bean id="shiroManager" class="com.soauth.server.shiro.manager.ShiroAuthzManagerImpl"> </bean>
  *
  * shiro ¹ýÂËÆ÷¹ÜÀí
@@ -30,21 +33,22 @@ public class ShiroAuthzManagerImpl implements ShiroAuthzManager {
      @Autowired
      private ShiroFilterFactoryBean  shiroFilterFactoryBean;
 
-    private  String auzFilename="shiro_authz.ini";
+    private  String auzFilename="securty/shiro_authz.ini";
     @Override
     public String loadauthzFilesinits() {
-       log.info("load authz..");
        StringBuffer stringBuffer = new StringBuffer();
                     stringBuffer.append(getauthzini());
+
+
         return stringBuffer.toString();
     }
 
 
     private String getauthzini(){
         ClassPathResource resource = new ClassPathResource(auzFilename);
-        LoadINIutis inIutis=null;
+        LoadIniutis inIutis=null;
         try {
-        inIutis = new LoadINIutis(resource.getFile());
+        inIutis = new LoadIniutis(resource.getFile());
 
         } catch (IOException e) {
             if(e instanceof FileNotFoundException) {
@@ -55,6 +59,7 @@ public class ShiroAuthzManagerImpl implements ShiroAuthzManager {
 
         String section = "base_auth";
         Set<String> keys = inIutis.get(section).keySet();
+        log.info("load authz................................................"+keys.toString());
         StringBuffer sb = new StringBuffer();
         for (String key : keys) {
             String value =inIutis.get(section, key);
@@ -90,7 +95,8 @@ public class ShiroAuthzManagerImpl implements ShiroAuthzManager {
         manager.getFilterChains().clear();
         shiroFilterFactoryBean.getFilterChainDefinitionMap().clear();
         synchronized(this){
-            shiroFilterFactoryBean.setFilterChainDefinitions(loadauthzFilesinits()); // build shiro filter
+            // build shiro filter
+            shiroFilterFactoryBean.setFilterChainDefinitions(loadauthzFilesinits());
 
             // build manager
             Map<String, String> chains = shiroFilterFactoryBean

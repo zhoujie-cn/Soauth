@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soauth.iml" filepath="$PROJECT_DIR$/Soauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoauthServer/SoauthServer.iml" filepath="$PROJECT_DIR$/SoauthServer/SoauthServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
