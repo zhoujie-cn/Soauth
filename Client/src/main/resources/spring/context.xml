@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"
+>
+    <mvc:default-servlet-handler/>
+   <mvc:annotation-driven></mvc:annotation-driven>
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+    <context:component-scan base-package="com.soauth.api,com.soauth.core" annotation-config="true">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
+        <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"></context:exclude-filter>
+    </context:component-scan>
+
+
+    <!-- 签名配置 -->
+    <bean id="defualtSignatrueAndverifySignatrue" class="com.soauth.core.openid.connect.signature.DefaultSignatrueAndverifySignatrue">
+    </bean>
+
+    <!-- 加密配置 -->
+    <bean id="defaultJwtencryptAnddecryption" class="com.soauth.core.openid.connect.encryption.DefaultJwtencryptAnddecryption">
+    </bean>
+
+    <!-- 从OP 获取jwk 的配置-->
+    <bean id="jwksCacheService" class="com.soauth.core.openid.connect.JwksCacheService"></bean>
+
+    <!-- 静态连接OIDC服务器配置 -->
+<bean id="staticConnectServer" class="com.soauth.api.client.openid.connect.service.impl.StaticConnectServerConfigServiceimpl">
+        <property name="serverConfigMap">
+            <map>
+                <entry key="http://localhost:8000/SoauthServer">
+                    <bean class="com.soauth.api.client.model.ServerConfig">
+                        <property name="issuer" value="http://localhost:8000/SoauthServer"></property>
+                        <property name="authorizationEndpointUri" value="http://localhost:8000/SoauthServer/openid/authorize"></property>
+                        <property name="tokenEndpointUri" value="http://localhost:8000/SoauthServer/openid/token"></property>
+                        <property name="jwksUri" value="http://localhost:8000/SoauthServer/jwks"></property>
+                        <property name="userInfoUri" value="http://localhost:8000/SoauthServer/userinfo"></property>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+</bean>
+
+   <!-- 静态客户端配置-->
+  <bean id="clientConfigService" class="com.soauth.api.client.openid.connect.service.impl.StaticClientConfigServiceImpl">
+         <property name="clientDetailsMap">
+                <map>
+                    <entry key="http://localhost:8000/SoauthServer">
+                        <bean class="com.soauth.core.vo.oauth2.ClientDetails">
+                            <property name="clientId" value="testclient"></property>
+                            <property name="clientSecret" value="test_secret"></property>
+
+                            <property name="scope">
+                                <set value-type="java.lang.String">
+                                    <value>openid</value>
+                                    <value>refresh_token</value>
+                                    <value>username</value>
+                                </set>
+                            </property>
+                            <property name="tokenEndpointmethod" value="SECRET_BASIC"></property>
+                            <property name="redirectUri" value="http://localhost:8089/client/oidc/authorize_callback_code"></property>
+
+                        </bean>
+                    </entry>
+                </map>
+         </property>
+
+  </bean>
+
+
+</beans>

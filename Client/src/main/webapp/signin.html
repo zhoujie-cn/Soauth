@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- 本页面模拟一个第三方业务系统登录-->
+    <title>H+ 后台主题UI框架 - 登录</title>
+    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
+    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+
+    <link href="/src/css/animate.min.css" rel="stylesheet">
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="css2/style.min.css?v=4.1.0" rel="stylesheet"/>
+    <link href="css2/login.css" rel="stylesheet"/>
+    <link href="css/buttons.css" rel="stylesheet"/>
+    <link href="src/css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <script>if(window.top !== window.self){ window.top.location = window.location;}</script>
+</head>
+
+<body class="gray-bg  animated fadeInDown">
+
+<section>
+    <div class="container">
+        <div class="loginscreen">
+            <div class="login-type">
+                <img src="img/login-tip.png" alt="" />
+                <i class="icon-tab icon-tab-1"></i>
+            </div>
+            <div class="login-main animated fadeIn">
+                <h3>第三方登录</h3>
+                <form  id="loginForm" >
+
+                    <button  style="margin-left: 2cm" id="login" class="button button-glow button-border button-rounded button-primary" type="submit">
+                        OIDC登录
+                    </button>
+
+                    <p class="text-muted text-center">
+                        <a href="忘记密码.html" class="pull-left">忘记密码</a>
+                        <a href="register.html" class="pull-right">注册账号</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="/client/src/js/jquery/jquery.min.js?v=2.1.4"></script>
+<script src="/client/src/js/bootstrap/bootstrap.min.js?v=3.3.6"></script>
+<script src="/client/src/js/business/partylogin.js"></script>
+</body>
+
+</html>

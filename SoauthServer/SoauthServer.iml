@@ -31,10 +31,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.Soauth:core:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle:ojdbc14:10.2.0.4.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.12" level="project" />
-    <orderEntry type="library" name="Maven: com.Soauth:core:1.0" level="project" />
+    <orderEntry type="module" module-name="core" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.oltu.oauth2:org.apache.oltu.oauth2.common:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.8" level="project" />

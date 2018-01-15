@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd">
+
+    <context:annotation-config/>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <context:component-scan base-package="com.soauth.server, com.soauth.core">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
+        <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"></context:exclude-filter>
+    </context:component-scan>
+
+
+    <!-- 服务器端配置文件 -->
+    <bean id="serverConfig" class="com.soauth.server.oauth.authorize.ServerConfig">
+        <property name="issuer" value="http://localhost:8000/SoauthServer"></property>
+    </bean>
+    <!-- 签名配置 -->
+    <bean id="defualtSignatrueAndverifySignatrue" class="com.soauth.core.openid.connect.signature.DefaultSignatrueAndverifySignatrue">
+    </bean>
+
+    <tx:advice id="applicationAdvisor" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+
+    </aop:config>
+    <!--<context:property-placeholder ignore-resource-not-found="true" location="classpath*:jdbc.properties"/> -->
+
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.OracleDriver"></property>
+        <property name="jdbcUrl" value="jdbc:oracle:thin:JZRptUser/jzrpt123_abc@15.5.240.26:1521:JZRpt"></property>
+        <property name="maxPoolSize" value="20" />
+        <property name="minPoolSize" value="5" />
+        <property name="autoCommitOnClose" value="false" />
+        <property name="acquireIncrement" value="3" />
+        <property name="initialPoolSize" value="5" />
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"
+          p:dataSource-ref="dataSource"
+          p:mapperLocations="classpath:mapper/*.xml">
+        <property name="typeAliasesPackage" value="com.soauth.core.vo"/>
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor"> <!-- 注意 分页插件版本为5.0 -->
+                    <property name="properties">
+                        <value>
+                            helperDialect=oracle
+                            rowBoundsWithCount=true
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
+    </bean><!-- configLocation为mybatis属性 mapperLocations为所有mapper -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
+          p:basePackage="com.soauth.server.dao" p:sqlSessionFactoryBeanName="sqlSessionFactory" />
+
+
+</beans>

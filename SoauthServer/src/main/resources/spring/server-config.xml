@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 签名配置 -->
+    <bean id="defualtSignatrueAndverifySignatrue" class="com.soauth.core.openid.connect.signature.DefaultSignatrueAndverifySignatrue">
+    </bean>
+
+    <!-- 加密配置 -->
+    <bean id="defaultJwtencryptAnddecryption" class="com.soauth.core.openid.connect.encryption.DefaultJwtencryptAnddecryption">
+    </bean>
+
+    <!-- 服务器端配置文件 -->
+    <bean id="serverConfig" class="com.soauth.server.oauth.authorize.ServerConfig">
+        <property name="issuer" value="http://localhost:8000/SoauthServer"></property>
+        <property name="jwkUri" value="http://localhost:8000/SoauthServer/jwks"></property>
+    </bean>
+</beans>

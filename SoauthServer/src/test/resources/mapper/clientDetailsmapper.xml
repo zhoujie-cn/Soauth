@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soauth.server.dao.ClientDetailsdao">
+
+
+    <insert id="saveClientDetails"  parameterType="com.soauth.core.vo.oauth2.ClientDetails" >
+
+INSERT INTO client_details(client_id, client_secret, client_name, client_uri,login_uri,
+scope,redirect_uri,access_token_validity,refresh_token_validity
+,description,create_time,tokenEndpointmethod)
+
+VALUES( #{clientId},#{clientSecret}, #{clientName},#{clientUri},#{loginUri},
+        #{scopeString}, #{redirectUri},#{accessTokenValidity},#{refreshTokenValidity}
+       ,#{description}, <![CDATA[ NOW() ]]>, #{tokenEndpointmethod}
+       );
+    </insert>
+
+
+</mapper>
