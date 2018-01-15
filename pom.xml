@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>SoauthServer</module>
         <module>core</module>
         <module>Client</module>
         <module>SoauthServer</module>
