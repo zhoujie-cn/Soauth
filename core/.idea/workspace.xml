@@ -2,206 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5667dc0-cd14-4e60-b3f1-6b1ed0fedd75" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Client/src/main/webapp/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/business/ConnectTokenBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/business/ImplicitAccessToken.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/mapper/clientDetailsmapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/securty/shiro_authz.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/test/resources/mapper/UserDefaultmapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/test/resources/mapper/authzmapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SoauthServer/src/test/resources/mapper/tokenmapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/SidebarTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/SigninToken.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/shiro/utils/ShiroUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/CookieUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/OverallBeanContextListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/RsaKeyUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AbstractOIDC.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keys/RSA2048private.key" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keys/RSA2048public.key" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/Core_war.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/Core_war_exploded.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/SoauthServer_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_0_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Soauth.iml" afterPath="$PROJECT_DIR$/../Soauth.iml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war_exploded.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/artifacts/SoauthServer_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_Soauth_core_1_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_Soauth_core_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_5_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_6.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_commons_org_apache_oltu_commons_encodedtoken_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_commons_org_apache_oltu_commons_json_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_1_0_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_1_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_jwt_1_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_3_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_3_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_json_json_20140107.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_json_json_20140107.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_5_2_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_oxm_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_1_2_0.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_1_2_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
       <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/SoauthServer.iml" afterPath="$PROJECT_DIR$/../SoauthServer/SoauthServer.iml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/pom.xml" afterPath="$PROJECT_DIR$/../SoauthServer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/dao/Oauth2dao.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/dao/Oauth2dao.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthAuthRequest.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthAuthRequest.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthTokenRequest.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/SoauthTokenRequest.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzCodeHandler.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzCodeHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzTokenHandler.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/authorize/AuthzTokenHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/message/SoauthHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/message/SoauthResponse.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/token/TokenDispatcher.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/token/TokenDispatcher.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/authzGrant/AuthzHandlerValidator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/client/AuthzcodeClientValidator.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/client/AuthzcodeClientValidator.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/oauth/validator/client/ClientValidator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/Oauth2Service.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/Oauth2Service.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/impl/Oauth2ServiceImpl.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/service/impl/Oauth2ServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/AuthzRealmImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManager.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManager.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManagerImpl.java" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/shiro/manager/ShiroAuthzManagerImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/utils/LoadINIutis.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/utils/MessageUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/java/com/soauth/server/web/controller/AuthzControl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/Springmvc.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/Springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/springContent.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/Spring/springContent.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/appContext-web.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/appContext-web.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/logging.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/securty/authz-shiro.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/resources/securty/authz-shiro.xml" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/resources/shiro_authz.ini" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SoauthServer/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../SoauthServer/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20131018.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20131018.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_5_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_9_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core.iml" afterPath="$PROJECT_DIR$/core.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/cache/CacheKeyGenerator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/cache/CacheSupport.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/cache/ConstantsCache.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/IdDomain.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/IdDomain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UPermission.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/URolePermission.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UURoles.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UUsers.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/model/UserInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/DateUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/SpringBeanUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/utils/SpringBeanUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/AccessToken.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ClientDetails.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/ConstantsKey.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2Code.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/core/vo/oauth2/Oauth2Code.java" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" afterPath="$PROJECT_DIR$/../pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1243,7 +1045,7 @@
       <workItem from="1515641868943" duration="4231000" />
       <workItem from="1515653998689" duration="1682000" />
       <workItem from="1515745644788" duration="799000" />
-      <workItem from="1515989759205" duration="122000" />
+      <workItem from="1515989759205" duration="198000" />
     </task>
     <servers />
   </component>
@@ -1280,7 +1082,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204868000" />
+    <option name="totallyTimeSpent" value="204944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
