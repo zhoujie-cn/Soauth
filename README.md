@@ -1,5 +1,8 @@
 # Soauth  [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/apereo/cas/blob/master/LICENSE)
 
+
+![https://github.com/zhoujie123/Soauth/blob/master/SoauthServer/src/test/resources/image/DAMWENG.jpg](image)
+
 ### 介绍:
 Soauth是一款基于OIDC的认证授权框架，整合jose4j, Apache Shiro, Apache oltu实现OIDC.  Soauth遵循模块化设计理念。 项目分为三个模块.
 
