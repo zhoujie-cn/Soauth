@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5667dc0-cd14-4e60-b3f1-6b1ed0fedd75" name="Default" comment="" />
+    <list default="true" id="a5667dc0-cd14-4e60-b3f1-6b1ed0fedd75" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../SoauthServer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SoauthServer/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
