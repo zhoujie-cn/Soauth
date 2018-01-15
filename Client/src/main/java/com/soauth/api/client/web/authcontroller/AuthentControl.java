@@ -59,6 +59,7 @@ public class AuthentControl {
      *
      *
      */
+    @CrossOrigin
     @RequestMapping(value = "authorize", method = RequestMethod.GET,consumes=MediaType.APPLICATION_FORM_URLENCODED_VALUE)
     public void  signin(@RequestParam(value = "client_id") String clientid, @RequestParam(value = "scope") String scope,
                          @RequestParam(value = "redirect_uri") String redirectUri, @RequestParam(value = "response_type") String responseType,
@@ -67,7 +68,6 @@ public class AuthentControl {
 
         Map<String,String> options = new HashMap<>(3);
 
-        response.addHeader("Access-Control-Allow-Origin", "http://localhost:8000/SoauthServer/openid/authorize");
         /**
          * 服务器端弹出页面选项
          */
@@ -84,7 +84,7 @@ public class AuthentControl {
         String url= connectAuthEndPoint.connectauthuri(session,scope,clientsecret,clientid,responseType,redirectUri,options);
 
 
-        log.debug("hold da redirect: {} and state {}",url);
+        log.debug("hold da redirect: {}",url);
 
         try {
             response.sendRedirect(url);
@@ -120,17 +120,6 @@ public class AuthentControl {
 
         tokenService.getImplicitToken(request,response);
     }
-
-
-
-
-
-    @RequestMapping(value = "callback_token")
-    public void tokencallback(HttpServletRequest request, HttpServletResponse response){
-          log.debug("token 回调..");
-    }
-
-
 
 
 
