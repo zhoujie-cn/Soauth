@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="SoauthServer:war">
-    <output-path>$PROJECT_DIR$/SoauthServer/target</output-path>
-    <root id="archive" name="SoauthServer-1.0.war">
-      <element id="artifact" artifact-name="SoauthServer:war exploded" />
-    </root>
-  </artifact>
-</component>
