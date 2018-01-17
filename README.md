@@ -15,6 +15,9 @@ Soauth是一款基于OIDC的认证授权框架，整合jose4j, Apache Shiro, Apa
 ### [项目文档及使用指南](https://github.com/zhoujie123/Soauth/wiki)
 
 ### [项目专栏博客](http://blog.csdn.net/column/details/18854.html)
+项目规范 <br/> 
+* 项目编码遵守阿里巴巴编程规范
+* 项目代码规范插件 [p3c](https://github.com/alibaba/p3c)
 
 项目开发环境<br />
 * 开发工具: idea <br/>  
