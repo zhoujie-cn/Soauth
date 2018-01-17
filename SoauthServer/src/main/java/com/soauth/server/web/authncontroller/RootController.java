@@ -1,7 +1,15 @@
 package com.soauth.server.web.authncontroller;
 
+import com.soauth.core.shiro.utils.ShiroUtils;
+import com.soauth.server.service.AdminService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -17,10 +25,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value ={"admin"} )
 public class RootController {
 
+    @Autowired
+    AdminService adminService;
+
     @RequestMapping()
     public String home(){
         return "root/home";
     }
 
+    public Map<String,List<Object>> retrieveSidebar( HttpServletRequest servletRequest, HttpServletResponse response){
+
+       return adminService.adminSidebar(ShiroUtils.currentUser().getId(),servletRequest,response );
+
+    }
     
 }

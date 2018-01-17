@@ -1,5 +1,9 @@
 package com.soauth.server.dao;
+import com.soauth.core.model.SidebarTree;
 import com.soauth.core.model.UserInfo;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  *
@@ -15,5 +19,13 @@ public interface UserDefaultdao {
      */
    UserInfo getUserInfo(String username);
 
+    /**
+     *  —È÷§’À∫≈√‹¬Î
+     * @param username
+     * @param password
+     * @return
+     */
    UserInfo verifyUser(String username, String password);
+
+
 }

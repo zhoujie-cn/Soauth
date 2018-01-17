@@ -15,11 +15,14 @@
         <result column="status" property="status" jdbcType="BIGINT" />
         <result column="salt" property="salt" />
     </resultMap>
-    <select id="login" parameterType="string" resultMap="UserResultMap">
+
+    <select id="getUserInfo" parameterType="string" resultMap="UserResultMap">
          SELECT <include refid="Userfield"/>
         FROM users
         <where>
             username=#{username}
         </where>
     </select>
+
+
 </mapper>

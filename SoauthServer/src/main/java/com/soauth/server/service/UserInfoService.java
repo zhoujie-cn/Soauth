@@ -1,10 +1,8 @@
 package com.soauth.server.service;
 
 import com.soauth.core.model.UserInfo;
-
 import java.util.List;
-import java.util.Set;
-
+import java.util.Map;
 /**
  *
  * @author zhoujie
@@ -28,5 +26,6 @@ public interface UserInfoService {
      * @return
      */
     UserInfo login(String username,String password);
+
 
 }

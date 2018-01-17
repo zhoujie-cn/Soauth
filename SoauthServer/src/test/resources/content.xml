@@ -42,7 +42,7 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="oracle.jdbc.OracleDriver"></property>
-        <property name="jdbcUrl" value="jdbc:oracle:thin:JZRptUser/jzrpt123_abc@15.5.240.26:1521:JZRpt"></property>
+        <property name="jdbcUrl" value="jdbc:oracle:thin:system/Aa149608@localhost:1521:orcl"></property>
         <property name="maxPoolSize" value="20" />
         <property name="minPoolSize" value="5" />
         <property name="autoCommitOnClose" value="false" />

@@ -1,5 +1,8 @@
 package com.soauth.server.service.impl;
 
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import com.soauth.core.model.SidebarTree;
 import com.soauth.core.model.UserInfo;
 import com.soauth.core.utils.RsaKeyUtils;
 import com.soauth.server.dao.UserDefaultdao;
@@ -8,7 +11,10 @@ import org.jose4j.keys.RsaKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpServletRequest;
 import java.security.PrivateKey;
+import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -43,6 +49,7 @@ public class DefaultUserInfoServiceImpl implements UserInfoService {
 
         return userDefault.verifyUser(username,password);
     }
+
 
 
 }
