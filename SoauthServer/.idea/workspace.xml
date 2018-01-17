@@ -10,21 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7820713d-3ee2-4202-aad3-5134abfb3fe6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/accesstoken.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/authorization_code.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/client_detalis.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/oauth_code.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/permission.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/refresh_token.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/roles.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/roles_permissions.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/user.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/oracle/user_roles.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Soauth.iml" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/ClientsEndPoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/ClientsEndPoint.java" />
       <change beforePath="$PROJECT_DIR$/../core/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../core/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" afterPath="$PROJECT_DIR$/../pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../core/core.iml" afterPath="$PROJECT_DIR$/../core/core.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientsEndPoint.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClientsEndPoint.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/ClientsEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="340">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,7 +60,7 @@
       <file leaf-file-name="PublishingEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/PublishingEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
+            <state relative-caret-position="238">
               <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
@@ -78,18 +70,8 @@
       <file leaf-file-name="RootController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/RootController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="272">
               <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginback.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/business/loginback.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -98,8 +80,8 @@
       <file leaf-file-name="AuthnEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="663">
+              <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -108,7 +90,7 @@
       <file leaf-file-name="AuthTokenEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthTokenEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="510">
               <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding />
             </state>
@@ -118,18 +100,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="2159">
               <caret line="127" column="49" lean-forward="false" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accesstoken.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database/oracle/accesstoken.sql">
+      <file leaf-file-name="user.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/database/oracle/user.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizationIdToken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/service/business/AuthorizationIdToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/soauth/server/service/business/AuthDeviceCode.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/authzmapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/root/home.html" />
         <option value="$MAVEN_REPOSITORY$/com/Soauth/core/1.0/core-1.0.jar!/com/soauth/core/openid/connect/PrivateKeyFactory.class" />
@@ -277,8 +268,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/soauth/server/ConnectTokenBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/springContent.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/business/loginback.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/ClientsEndPoint.java" />
       </list>
     </option>
   </component>
@@ -387,6 +379,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -489,7 +483,23 @@
               <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="soauth" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="soauth" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="authncontroller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
@@ -497,16 +507,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="oracle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
@@ -569,14 +569,44 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="jsencrypt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoauthServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoauthServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,11 +629,11 @@
       <recent name="com.soauth.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Soauth\SoauthServer\src\test\resources" />
+      <recent name="D:\Soauth\SoauthServer\src\main\resources\image" />
       <recent name="D:\Soauth\SoauthServer\src\main\resources\database\oracle" />
       <recent name="D:\oauth2\Soauth\SoauthServer\src\main\resources\securty" />
       <recent name="D:\oauth2\Soauth\SoauthServer\src\main\webapp\resources\js\plugins\jsencrypt" />
-      <recent name="D:\oauth2\Soauth\SoauthServer\src\main\webapp\resources\js\jsencrypt" />
-      <recent name="D:\oauth2\Soauth\SoauthServer\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soauth.server.web" />
@@ -1750,6 +1780,8 @@
       <workItem from="1515755136265" duration="4201000" />
       <workItem from="1515902286034" duration="2997000" />
       <workItem from="1515989016144" duration="874000" />
+      <workItem from="1516092768352" duration="2633000" />
+      <workItem from="1516164263444" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <created>1515989852319</created>
@@ -1801,7 +1833,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1046035000" />
+    <option name="totallyTimeSpent" value="1052130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1814,72 +1846,48 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.64220876" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.8880484" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.70689654" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31027028" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24315068" sideWeight="0.112737924" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.35779122" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54452056" sideWeight="0.77665246" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.20933977" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20522387" sideWeight="0.7906602" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669509" sideWeight="0.1632653" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.20522387" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28322786" sideWeight="0.8872621" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.8880484" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.70689654" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.77878463" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.7009595" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31027028" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24315068" sideWeight="0.112737924" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20255864" sideWeight="0.29310346" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.70689654" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54452056" sideWeight="0.77665246" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.20933977" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669509" sideWeight="0.1632653" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.20933977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20522387" sideWeight="0.7906602" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405405" sideWeight="0.78678036" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669509" sideWeight="0.1632653" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31027028" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.20522387" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.77878463" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.7009595" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24315068" sideWeight="0.112737924" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20255864" sideWeight="0.29310346" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669509" sideWeight="0.1632653" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405405" sideWeight="0.78678036" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1952,13 +1960,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/service/business/AbstractOIDCHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/service/business/AuthRefreshToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1988,13 +1989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/service/business/AuthorizationIdToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -2132,7 +2126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2161,7 +2154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2169,7 +2161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2177,7 +2168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2211,48 +2201,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1515745890356" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515745890356" expanded="false" signature="151:361" ph="..." />
-            <marker date="1515745890356" expanded="true" signature="495:502" ph="{}" />
-            <marker date="1515745890356" expanded="true" signature="574:840" ph="{...}" />
-            <marker date="1515745890356" expanded="false" signature="882:893" ph=" { " />
-            <marker date="1515745890356" expanded="false" signature="952:958" ph=" }" />
-            <marker date="1515745890356" expanded="false" signature="1000:1011" ph=" { " />
-            <marker date="1515745890356" expanded="false" signature="1068:1074" ph=" }" />
-            <marker date="1515745890356" expanded="false" signature="1114:1125" ph=" { " />
-            <marker date="1515745890356" expanded="false" signature="1172:1178" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthTokenEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="510">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/ClientsEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/PublishingEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
+        <state relative-caret-position="238">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
@@ -2260,42 +2222,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/RootController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="272">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/oracle/permission.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515739988435" expanded="true" signature="290:799" ph="CREATE TABLE... PERMISSION" />
-            <marker date="1515739988435" expanded="true" signature="848:958" ph="Insert into PERMISSION... " />
-            <marker date="1515739988435" expanded="true" signature="960:1072" ph="Insert into PERMISSION... " />
-            <marker date="1515739988435" expanded="true" signature="1701:2057" ph="ALTER TABLE &quot;PERMISSION&quot;... " />
-            <marker date="1515739988435" expanded="true" signature="2063:2117" ph="ALTER TABLE &quot;PERMISSION&quot;... " />
-            <marker date="1515739988435" expanded="true" signature="2123:2178" ph="ALTER TABLE &quot;PERMISSION&quot;... " />
-            <marker date="1515739988435" expanded="true" signature="2184:2242" ph="ALTER TABLE &quot;PERMISSION&quot;... " />
-            <marker date="1515739988435" expanded="true" signature="2248:2307" ph="ALTER TABLE &quot;PERMISSION&quot;... " />
-            <marker date="1515739988435" expanded="true" signature="2313:2372" ph="ALTER TABLE &quot;PERMISSION&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/oracle/permission.sql" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="2159">
           <caret line="127" column="49" lean-forward="false" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/oracle/accesstoken.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/oracle/accesstoken.sql" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/database/oracle/user.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/service/business/AuthorizationIdToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/AuthnEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soauth/server/web/authncontroller/ClientsEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>

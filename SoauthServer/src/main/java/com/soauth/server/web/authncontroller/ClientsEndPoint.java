@@ -21,7 +21,7 @@ import java.util.Set;
 import java.util.UUID;
 
 /**
- *
+ *¿Í»§¶Ë×¢²á.
  * @author zhoujie
  * @date 2017/12/13
  */

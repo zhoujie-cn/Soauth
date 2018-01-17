@@ -59,7 +59,6 @@ public class AuthnEndpoint {
     @CrossOrigin
     @RequestMapping(value = "authorize",method = RequestMethod.GET)
     public void authorize(HttpServletRequest request, HttpServletResponse response) {
-        response.addHeader("Access-Control-Allow-Origin", "*");
         try {
             SoauthAuthRequest authRequest = new SoauthAuthRequest(request);
 
