@@ -5,10 +5,10 @@
 
 $(document).ready(function () {
 
-/*/
+
     $.ajax({
-        type: "POST",
-        url: "/ReportingSystem/sidebar",
+        type: "GET",
+        url: "/SoauthServer/admin/sidebar",
         cache : false,	
         async: false,
         contentType:'application/json',
@@ -25,7 +25,7 @@ $(document).ready(function () {
    
         }
     });
-    */
+
 
     // MetsiMenu
     $('#side-menu').metisMenu();
