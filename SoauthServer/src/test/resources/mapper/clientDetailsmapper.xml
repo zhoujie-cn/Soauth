@@ -11,8 +11,8 @@ scope,redirect_uri,access_token_validity,refresh_token_validity
 
 VALUES( #{clientId},#{clientSecret}, #{clientName},#{clientUri},#{loginUri},
         #{scopeString}, #{redirectUri},#{accessTokenValidity},#{refreshTokenValidity}
-       ,#{description}, <![CDATA[ NOW() ]]>, #{tokenEndpointmethod}
-       );
+       ,#{description}, <![CDATA[  SYSDATE ]]>, #{tokenEndpointmethod}
+       )
     </insert>
 
 

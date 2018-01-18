@@ -33,6 +33,7 @@ public class ClientsEndPoint {
     ClientDetailsService  clientService;
 
     @RequestMapping(method = RequestMethod.POST,  consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+   @ResponseBody
     public String addClient(@RequestBody ClientDetails clientInfo){
 
         //如果没有指定客户端ID 则强制生成一个客户端ID
@@ -55,7 +56,6 @@ public class ClientsEndPoint {
 
         return null;
     }
-
 
     @RequestMapping(method = RequestMethod.GET, produces =MediaType.APPLICATION_JSON_VALUE)
     public String getAllClient(HttpServletRequest request, @RequestBody() ClientInfoPage clientInfoPage){

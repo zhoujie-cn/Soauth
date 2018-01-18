@@ -38,7 +38,7 @@ public class RootController {
     @ResponseBody
     public Map<String,List<Object>> retrieveSidebar( HttpServletRequest servletRequest, HttpServletResponse response){
 
-       return adminService.adminSidebar(ShiroUtils.currentUser().getId(),servletRequest,response );
+       return adminService.adminSidebar(1l,servletRequest,response );
 
     }
     

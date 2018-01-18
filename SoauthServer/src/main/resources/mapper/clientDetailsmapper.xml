@@ -11,23 +11,9 @@ scope,redirect_uri,access_token_validity,refresh_token_validity
 
 VALUES( #{clientId},#{clientSecret}, #{clientName},#{clientUri},#{loginUri},
         #{scopeString}, #{redirectUri},#{accessTokenValidity},#{refreshTokenValidity}
-       ,#{description}, <![CDATA[ NOW() ]]>, #{tokenEndpointmethod}
-       );
+       ,#{description}, <![CDATA[  SYSDATE ]]>, #{tokenEndpointmethod}
+       )
     </insert>
 
-    <resultMap id="client_map" type="com.soauth.core.vo.oauth2.ClientDetails">
-        <result property="grantType" column="grant_types"></result>
-        <result property="clientId" column="client_id"></result>
-        <result property="clientName" column="client_name"></result>
-        <result property="clientUri" column="client_uri"></result>
-        <result property="scopeString" column="scope"></result>
-        <result property="clientSecret" column="client_secret"></result>
-        <result property="redirectUri" column="redirect_uri"></result>
-        <result property="description" column="description"></result>
-        <result property="tokenEndpointmethod" column="tokenEndpointmethod"></result>
-    </resultMap>
 
-    <select id="getAllClientDetails" parameterType="com.soauth.server.model.ClientInfoPage" resultMap="client_map">
-        SELECT client_id, client_secret, client_name, client_uri, scope, grant_types,redirect_uri,description,create_time, tokenEndpointmethod FROM client_details
-    </select>
 </mapper>

@@ -22,7 +22,6 @@ $(document).ready(function () {
         },
         error: function(XMLHttpRequest, textStatus, errorThrown) {
             alert("查询失败");
-   
         }
     });
 
