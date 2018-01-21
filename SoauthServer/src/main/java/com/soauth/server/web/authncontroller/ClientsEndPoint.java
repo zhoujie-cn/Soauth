@@ -6,6 +6,8 @@ import com.soauth.core.vo.oauth2.ClientDetails;
 import com.soauth.server.model.ClientInfoPage;
 import com.soauth.server.service.ClientDetailsService;
 import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import java.math.BigInteger;
 import java.security.SecureRandom;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -28,7 +31,7 @@ import java.util.UUID;
 @Controller
 @RequestMapping("clients")
 public class ClientsEndPoint {
-
+    private static  final Logger log = LoggerFactory.getLogger(ClientsEndPoint.class);
     @Autowired
     ClientDetailsService  clientService;
 
@@ -57,14 +60,28 @@ public class ClientsEndPoint {
         return null;
     }
 
-    @RequestMapping(method = RequestMethod.GET, produces =MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "show",method = RequestMethod.POST)
+    @ResponseBody
     public String getAllClient(HttpServletRequest request, @RequestBody() ClientInfoPage clientInfoPage){
-
+        log.debug("show......................................clients............................");
         DataTablePageUtil<ClientInfoPage>   clientPage= new DataTablePageUtil<ClientInfoPage>(request,clientInfoPage.getStartIndex(),clientInfoPage.getPageSize());
 
         PageHelper.startPage(clientPage.getPage_num(),clientPage.getPage_size());
 
-        clientService.getAllClientDetails(clientInfoPage);
+        List<ClientInfoPage> list= clientService.getAllClientDetails(clientInfoPage);
+
+
+        String json=DataTablePageUtil.pageTable(clientPage,list);
+        return json;
+    }
+
+    @RequestMapping(value = "show",method = RequestMethod.GET)
+    public  String getAllClient(){
+        return "root/clientview/index";
+    }
+
+    @RequestMapping(value ="remove", method = RequestMethod.DELETE)
+    public String clientremove(){
 
         return null;
     }

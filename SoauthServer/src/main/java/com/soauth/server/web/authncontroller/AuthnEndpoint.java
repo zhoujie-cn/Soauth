@@ -73,7 +73,7 @@ public class AuthnEndpoint {
                 AuthzTokenHandler tokenHandler= new AuthzTokenHandler(authRequest,response);
                 tokenHandler.verify();
             }
-
+            log.debug("invalidReqiest......................................");
             invalidReuqestType(authRequest,response);
 
         } catch (OAuthSystemException e) {

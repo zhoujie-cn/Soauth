@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>client show</title>
+    <link href="/SoauthServer/resources/css/bootstrap3.3.7/css/bootstrap.css?v=3.3.7" rel="stylesheet">
+    <link href=/SoauthServer/resources/css/fonts/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/SoauthServer/resources/css/business/css/animate.min.css" rel="stylesheet">
+    <link href="/SoauthServer/resources/css/business/css/style.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="/SoauthServer/resources/css/business/css/nprogress.css" rel="stylesheet">
+    <!-- jQuery custom content scroller -->
+    <link href="/SoauthServer/resources/css/business/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+    <!-- green  --> 
+    <link href="/SoauthServer/resources/css/business/css/green.css" rel="stylesheet"/>
+    <!-- Custom Theme Style -->
+    <link href="/SoauthServer/resources/js/plugins/custom/custom.css" rel="stylesheet">
+    <!-- DataTables CSS start-->
+    <link rel="stylesheet" href="/SoauthServer/resources/js/plugins/datatables/css/dataTables.bootstrap.css">
+
+    <link rel="stylesheet" href="/SoauthServer/resources/js/plugins/datatables/buttons/buttons.dataTables.min.css">
+ <!-- fixedHeader -->    
+     <link rel="stylesheet" href="/SoauthServer/resources/js/plugins/datatables/fixedHeader/fixedHeader.bootstrap.css">
+ <!--leyer  -->
+    <link href="/SoauthServer/resources/js/plugins/layer/skin/layer.css" rel="stylesheet">
+
+
+</head>
+<body class="gray-bg">
+	
+	<!-- page content -->
+     <div class="right_col" role="main">
+				<div class="">
+					<div class="page_title">
+						<div class="title_left">
+						
+		     <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                   
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="x_content">
+                    <p class="text-muted font-13 m-b-30">
+                        <code>客户端列表: <a class="fa fa-question-circle"></a> </code>
+                    </p>
+                    <table id="RoleList" class="table table-striped table-bordered bulk_action">
+                      <thead>
+                        <tr>
+                       
+                          <th>客户端ID</th>
+                          <th>客户端密钥</th>
+                          <th>客户端地址</th>
+                            <th>客户端名称</th>
+                            <th>回调地址</th>
+                            <th>客</th>
+                        </tr>
+                      </thead>
+
+                       <tbody>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>						
+			</div>				
+		</div>
+		</div>
+</div>
+			<!-- /page content -->
+
+    <script src="/SoauthServer/resources/js/jquery/jquery.min.js?v=2.1.4"></script>
+    <script src="/SoauthServer/resources/js/bootstrap/bootstrap.min.js?v=3.3.6"></script>
+<!-- FastClick -->
+    <script src="/SoauthServer/resources/js/plugins/fastclick/fastclick.js"></script>
+
+    <script src="/SoauthServer/resources/js/plugins/nprogress/nprogress.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/select2/select2.full.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/select2/zh-CN.js"></script>
+
+<!-- jQuery custom content scroller -->
+    <script src="/SoauthServer/resources/js/plugins/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/icheck/icheck.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/js/dataTables.bootstrap.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/buttons.bootstrap.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/dataTables.buttons.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/buttons.flash.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/buttons.html5.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/buttons.print.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/jszip.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/buttons/pdfmake.min.js"></script>
+    <script src="/SoauthServer/resources/js/bootstrap/daterangepicker/moment.min.js"></script>
+    <script src="/SoauthServer/resources/js/bootstrap/daterangepicker/daterangepicker.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/datatables/fixedHeader/dataTables.fixedHeader.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/custom/custom.min.js"></script>
+    <script src="/SoauthServer/resources/js/plugins/layer/layer.min.js"></script>
+    <script src="/SoauthServer/resources/js/business/constant.js"></script>
+
+	<script type="text/javascript">
+var optiont ={}; // 记录搜索时间
+$(function (){
+ 
+    var $table = $('#RoleList');
+    console.log('role list');
+    var _table = $table.dataTable($.extend(true,{},CONSTANT.DATA_TABLES.DEFAULT_OPTION, {
+        ajax : function(data, callback, settings) {
+            //封装请求参数
+            var param = userManage.getQueryCondition(data);
+            var jsonparam=JSON.stringify(param);
+            console.log('the Search params'+jsonparam);
+            $.ajax({
+                type: "POST",
+                url: "/SoauthServer/clients/show",
+                cache : false,	
+                contentType:'application/json',
+                data: jsonparam,
+                dataType: "json",
+                success: function(result) {
+                    var returnData = {};
+                    returnData.draw = data.draw;
+                    returnData.recordsTotal = result.recordsTotal;
+                    returnData.recordsFiltered = result.recordsFiltered;
+                    returnData.data = result.data;  
+                    console.log(data.draw);
+
+                    callback(returnData);
+
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert("查询失败");
+           
+                }
+            });
+        },
+ columns: [
+	           
+	            {
+	     
+	            	data: "clientId"
+
+	            },
+	            {
+	       
+	            	data: "clientSecret"
+	            },
+                 {
+
+                     data: "clientUri"
+                 },
+                 {
+
+                       data: "clientName"
+                  },
+                  {
+
+                     data: "redirectUri"
+                  },
+                 {
+                     className : "td-operation",
+                     data: null,
+                     defaultContent:"",
+                     orderable : false,
+                     width : "120px"
+                 }
+	
+	        ],
+
+        "createdRow": function ( row, data, index ) {    
+        	
+           
+        	            var $btnDel = $('<button type="button" id="btndel" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i>删除 </button>');
+        	            var $btnEdit= $('<button type="button" id="btnedit" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i>编辑 </button>'); 
+        	            $('td', row).eq(5).append($btnDel).append($btnEdit);
+        	        }
+   
+    })).api();
+
+
+
+    $("#btn-save-del").click(function(){
+        userManage.editItemSubmit();
+    });
+
+    $("#btndel").click(function(){
+        console.log('btndel click');
+    	userManage.delSubmit();
+    });
+    $table.on("click","#btndel",function() {
+    
+		//点击删除按钮
+		var item = _table.row($(this).closest('tr')).data();
+		$(this).closest('tr').addClass("active").siblings().removeClass("active");
+		console.log(item);
+		userManage.delSubmit(item);
+	});
+    
+});
+
+
+var userManage = {                                  
+
+	     getQueryCondition : function(data) {
+
+	        var param = {};
+	        //组装序参数
+	   
+	        //组装分页参数
+	            param.startIndex = data.start;
+	            param.pageSize = data.length;
+	            param.draw = data.draw;
+
+	        return param;
+	    },
+	    delSubmit :function(data){
+	    	layer.open({  //删除确认 
+	    		  content: '确定将您在系统中的'+data.name+'身份删除 ?',
+	    		  btn: ['yes', 'no'],
+	    	       yes: function(index, layero){
+	    	    	   
+	    	        $.ajax({
+	    	               type: "DELETE",
+	    	                url: "../SoauthServer/clients/remove",
+	    	                cache : false,	
+	    	                contentType:'application/json',
+	    	                data: JSON.stringify(data.name),
+	    	                dataType: "json",
+	    	                success: function(result) {           
+	    	                    if (result.errorCode){
+	    	                       
+	    	                        return;
+	    	                    }
+
+	    	                },
+	    	                error: function(XMLHttpRequest, textStatus, errorThrown) {
+	    	                  layer.msg('查询失败');
+	    	           
+	    	                }
+	    	        });
+	    	    	    layer.close(index);
+	    	     },
+	    	     no: function(index){ 
+	    	   
+	    	     }
+	    		});        
+	         console.log('delSubmit');
+	    }
+
+	};
+</script>
+</body>
+</html>

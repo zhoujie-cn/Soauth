@@ -44,7 +44,7 @@ public class AuthorizationIdToken {
      claims.setSubject(subject);
 
      String nonce=request.getParam(AbstractOIDC.OIDC_NONCE);
-
+     // nonce 原值返回用于防止重放攻击
      if(!StringUtils.isEmpty(nonce)){
          claims.setClaim(AbstractOIDC.OIDC_NONCE,nonce);
      }

@@ -16,4 +16,16 @@ VALUES( #{clientId},#{clientSecret}, #{clientName},#{clientUri},#{loginUri},
     </insert>
 
 
+    <resultMap id="clients_map" type="com.soauth.server.model.ClientInfoPage">
+        <result property="clientId" column="client_id"></result>
+        <result property="clientSecret" column="client_secret"></result>
+        <result property="clientName" column="client_name"></result>
+        <result property="redirectUri" column="redirect_uri"></result>
+        <result property="clientUri" column="CLIENT_URI"></result>
+    </resultMap>
+
+    <select id="getAllClientDetails" parameterType="com.soauth.server.model.ClientInfoPage" resultMap="clients_map">
+        SELECT  CLIENT_ID,CLIENT_SECRET,CLIENT_NAME,CLIENT_URI,GRANT_TYPES,REDIRECT_URI FROM client_details
+    </select>
+
 </mapper>
