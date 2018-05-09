@@ -23,6 +23,7 @@
         <testNG.version>6.8.7</testNG.version>
         <slf4j.version>1.7.7</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
+        <cglib.version>3.2.5</cglib.version>
         <bouncycastle.version>1.54</bouncycastle.version>
     </properties>
 
@@ -107,6 +108,19 @@
             <version>${shiro.version}</version>
         </dependency>
 
+        <!-- cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.ant</groupId>
+                    <artifactId>ant</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
 
         <!-- mybatis 分页插件 -->
         <dependency>
@@ -114,6 +128,7 @@
             <artifactId>pagehelper</artifactId>
             <version>5.0.0</version>
         </dependency>
+
         <!--oltu-->
         <dependency>
             <groupId>org.apache.oltu.oauth2</groupId>
