@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+Soauth.iml
+SoauthServer/SoauthServer.iml
+core/core.iml
+*.class
+gen
+.settings
+proguard
+target/
+download/
+.classpath
+.settings/
+.project
+*.settings
+*.orig
+*.iml
+#
+.metadata/
+.recommenders
+bin/
+*.log
+*.gz
+.gitignore
+jdbc.properties
+.vscode/
