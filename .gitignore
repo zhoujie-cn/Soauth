@@ -2,6 +2,7 @@
 .idea/
 Soauth.iml
 SoauthServer/SoauthServer.iml
+Client/Client.iml
 core/core.iml
 *.class
 gen
